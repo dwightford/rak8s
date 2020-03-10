@@ -71,5 +71,5 @@
     host: "{{ inventory_hostname }}"
     port: 22
     delay: 15
-    timeout: 120
+    timeout: 240
   become: False
